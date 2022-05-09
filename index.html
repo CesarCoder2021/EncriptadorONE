@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b19bb8f200.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>  
+    <title>Encriptador ONE</title>
+</head>
+<body>
+    <section>
+        <div class="ingreso">
+            <div class="logo">
+                <img src="/img/LogoAlura.png" alt="Logo Alura">
+            </div>
+            <div class="text-l">
+                <div class="contenttextI">
+                    <textarea name="texto1" id="mensaje" class="texto1"  placeholder="Ingrese el texto aquí" cols="30" rows="25"></textarea>
+                </div>
+                <p><i class="fa-solid fa-circle-exclamation"></i> Sólo letras minúsculas sin acentos</p>
+                <div class="botones">
+                    <div class="cbtnen">
+                        <input type="button" class="btnen" id="encriptar" value="ENCRIPTAR">
+                    </div>
+                    <div class="cbtndes">
+                        <input type="button" class="btndes" id="desencriptar" value="DESENCRIPTAR">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="egreso">
+            <div class="minitext">
+                <div class="contenttextD" id="contimg">
+                    <textarea name="texto2" id="mensaje2" class="texto2" cols="30" rows="30" readonly></textarea>
+                    <div class="imgvis">
+                        <img class="muneco" src="/img/Muneco.jpg" alt="" id="Muñeco">
+                        <p class="ninmsj" id="p1">Ningún mensaje fue encontrado</p>
+                        <p class="ninmsj2" id="p2">Ingresa el texto que desas encriptar o desencriptar.</p>
+                    </div>
+                </div>
+                <div class="cbtn">
+                    <input type="button" id="copiar" value="Copiar" class="copybtn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h4 class="desarrollo">Desarrollado por:</h4>
+        <h3 class="name">Cesar Varettoni</h3>
+        <a href="https://github.com/CesarCoder2021" class="as"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/countrymendoza/" class="as"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://facebook.com/cvarettoni" class="as"><i class="fa-brands fa-facebook"></i></a>
+        <h3 class="email">email: cvarettoni@gmail.com</h3>
+    </footer>
+</body>
+</html>
